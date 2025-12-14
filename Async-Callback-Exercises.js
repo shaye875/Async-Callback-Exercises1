@@ -1,4 +1,5 @@
 import fs from 'fs'
+import os from 'os'
 //1
 fs.readFile("note.txt","utf8",(err,data)=>{
     if(err){
@@ -50,7 +51,7 @@ fs.readFile("quotes.txt","utf8",(err,data)=>{
    console.log(list[Math.floor(Math.random()*3)]);
 })
 //5
-import os from 'os'
+
 function memory() {
     let count = 0
     const run = setInterval((err) => {
